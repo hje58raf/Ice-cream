@@ -9,7 +9,7 @@
 
 body {
     padding-top:100px;
-    background-color: #FDEBE4;
+    background-color: white;
 }
 
 .uppercase {
@@ -29,10 +29,6 @@ body {
 
 
 /*--Colours--*/
-
-.bg-light-blue {
-    background-color: white;
-}
 
 
 .hvr-border-fade::before {
@@ -55,4 +51,71 @@ body {
     letter-spacing: 2px;
     color: #3066be;
 }
+
+/*--Main image--*/
+
+.personal-info {
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color:  #3066be;
+    padding-bottom: 15px;
+}
+
+.img-fluid {
+    max-width: 80%;
+    height: auto;
+    border-radius: 50%;
+} 
+
+/*--Footer Copied from resume-miniproject-bootstrap4 - Code Institute - modified--*/
+
+
+footer {
+    background-color: #d1e3fa;
+    color: #3066be;
+    min-height: 30px;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 0;
+    bottom:0;
+}
+
+
+.social-links {
+    padding-bottom: 5px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #3066be;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #8f8f8f;
+
+}
+
+#footer-details {
+    padding: 0;
+    text-align: center;
+}
+
+.copyright {
+    font-size: 10px;
+}
+
+
 
